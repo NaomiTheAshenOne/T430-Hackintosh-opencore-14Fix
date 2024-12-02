@@ -13,13 +13,14 @@
 <img align="right" src="/resources/homepage.png" alt="Opencore" width="200">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 ## WHAT DOES THIS FORK CHANGE?
-This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some breaking API changes were introduced that causes the orignal EFI to crash when trying to install Sonoma. Huge thanks to 
+This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some breaking API changes were introduced that causes the orignal EFI to crash when trying to install Sonoma.
   
 ## IMPORTANT NOTES
 * By default this config is for 768p displays, in config.plist change APPL,ig-platform-id from 03006601 to 04006601 for 900p displays.
 * Delete all data on your drive before installing (if not already using Mac)
 * Make sure to read the entire guide even if you have read the orginal as some things differ
 * Both fresh install and upgrade from MacOS have been tested and work
+Huge thanks to Shiorinyan for helping test and inspiring this :3
 
 ## SUMMARY 
 This guide will provide a EFI folder configured to install macOS 10.13 to 14 on the Thinkpad T430 using OpenCore Bootloader with every device working with some exceptions depending on your particular T430 model (see below)
@@ -229,7 +230,6 @@ https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#sandy-and-ivy
 
 Thanks to:
 * [jozews321] (https://github.com/jozews321) (Original EFI creator)
-
 * [positivew] (https://github.com/positivew) (The idea of using MacbookPro12,1 instead of 10,1) 
 * [Apple](https://www.apple.com) (macOS)
 * [Acidanthera](https://github.com/acidanthera) (OpenCore, VirtualSMC, Lilu, WhateverGreen and a lot more)
