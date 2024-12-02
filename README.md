@@ -124,6 +124,8 @@ Latest BIOS Version: `2.77` stock or ivyrain
 <details>
 <summary><strong>USB Installation media</strong></summary>
 
+</details> 
+
 ### Creating the USB installer 
 In this step you will create a macOS installation media.
 * You will need a Mac with opencore legacy patcher installed on it, if you dont own a Mac first follow the original guide and install MacOS 12 on the t430
