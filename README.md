@@ -19,7 +19,7 @@ This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some
 * By default this config is for 768p displays, in config.plist change APPL,ig-platform-id from 03006601 to 04006601 for 900p displays.
 * Delete all data on your drive before installing (if not already using Mac)
 * Make sure to read the entire guide even if you have read the orginal as some things differ
-* Both fresh install and upgrade from MacOS have been tested and work
+* Both fresh install and upgrade from MacOS 13.7 have been tested and work
 * Huge thanks to Shiorinyan for helping test and inspiring this :3
 
 ## SUMMARY 
