@@ -66,6 +66,26 @@ Do a pull request to add more Hardware configs to this list
   
 </details>
 
+<details>
+<summary><strong>Josh's T430</strong></summary>
+
+### ThinkPad T430 Specs 
+| Component           | Details                                       |
+| ------------------: | :-------------------------------------------- |
+| Model               | Lenovo ThinkPad T430                          |
+| BIOS Version        | Stock latest                                  |
+| Processor           | Intel Core i7 3320m                           |
+| Memory              | 8GB DDR3 1600MHz in Dual-Channel              |
+| SSD                 | 480GB SSD                                     |
+| Graphics            | Intel HD Graphics 4000                        |
+| Display             | 15.6" 1366x768                                |
+| Audio               | Realtek ALC269VC                              |
+| Ethernet            | N/A                                           |
+| WIFI                | Unkown, "Came with thinkpad"                  |
+| Bluetooth           | N/A                                           |
+  
+</details>
+
 
 ## INSTALL GUIDE
 <details>
