@@ -23,14 +23,13 @@ There will be references to the linked guide throught this proccess for those th
 ## REQUIREMENTS
 - Lenovo Thinkpad T430 (T430s is similar enough to work with this config, but i can't verify)
 - Intel Core i3 3110M or better (Celeron and Pentium CPUs are not supported)
-- Integrated Intel HD4000 graphics (NVIDIA discrete GPUs are not supported)
+- If using nvidia GPU disable before following the guide
 - At least 4GB RAM 
-- Stock Intel Centrino WiFI card (optional)
-- Internal Broadcom BCM20702 Bluetooth 4.2 card (optional)
+- Nearly Any intel wifi card should work
 - Integrated Fingerprint reader and WWAN card are not supported
 - Dual Booting is discouraged in this guide as there is many boot scenarios to cover properly here
 - SSD (HDDs suck)
-- USB drive (at least 16gb for full installer or 2gb for internet recovery)
+- 32GB USB drive
 
 ## ABOUT
 The provided ACPI tables in this OC EFI folder are made using a DSDT-less method via hotpatching to increase compatibility with different BIOS versions.
@@ -159,7 +158,7 @@ Now it's time to generate the Serial, MLB, UUID and ROM to the config.plist (you
   <br /> <br /> 
 - Choose 3 to generate some new serials
   <br /> <br /> 
-- Write MacBookPro10,1
+- Write MacBookPro12,1
   <br /> <br /> 
 - You will get something like this
   <br /> <br />  
@@ -221,24 +220,10 @@ https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#sandy-and-ivy
 	
 </details> 
 
-<details>
-<summary><strong>Disable verbose boot</strong></summary>
-<br /> 
-If you managed to boot without any issues you can disable the verbose boot to get a clean boot experience 
-
-- Open the config.plist
-
-- Go to NVRAM/Add/7C436110-AB2A-4BBB-A880-FE41995C9F82
-	
-- Find boot-args and delete  `-v`
-	
-- Reboot
-	
-</details> 
-
 ## Credits
 
 Thanks to:
+* [Jozews321] (https://github.com/jozews321/T430-Hackintosh-Opencore) (Original EFI creator)
 
 * [Apple](https://www.apple.com) (macOS)
 * [Acidanthera](https://github.com/acidanthera) (OpenCore, VirtualSMC, Lilu, WhateverGreen and a lot more)
@@ -246,26 +231,3 @@ Thanks to:
 * [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm) (Airportitlwm)
 * [5T33Z0](https://github.com/5T33Z0/Lenovo-T530-Hackinosh-OpenCore) (T530 ACPI fixes)
 * [zhen-zen](https://github.com/zhen-zen/YogaSMC) (YogaSMC)
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
