@@ -13,7 +13,7 @@
 <img align="right" src="/resources/homepage.png" alt="Opencore" width="200">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 ## WHAT DOES THIS FORK CHANGE?
-This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some breaking API changes were introduced that causes the orignal EFI to crash when trying to install Sonoma.
+This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some breaking API changes were introduced that causes the orignal EFI to crash when trying to use Sonoma. Tested with Sonoma 14.7.
   
 ## IMPORTANT NOTES
 * By default this config is for 768p displays, in config.plist change APPL,ig-platform-id from 03006601 to 04006601 for 900p displays.
