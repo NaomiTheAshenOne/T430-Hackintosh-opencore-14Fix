@@ -128,7 +128,7 @@ Latest BIOS Version: `2.77` stock or ivyrain
 In this step you will create a macOS installation media.
 You will need a Mac with opencore legacy patcher installed on it, if you dont own a Mac first follow the original guide and install MacOS 12 on the t430
 Create a offline MacOS installer with opencore legacy and install it to a 32GB or higher USB drive
-Use MountEFI to mount the EFI of the USB drive
+Use MountEFI (https://github.com/corpnewt/MountEFI) to mount the EFI of the USB drive
 Copy the EFI folder from releases into the EFI parition
 <br /> <br /> 
 Now go to [OpenCore Guide - Creating the USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) where you can find the instructions step by step to create the installation media with your respective OS 
