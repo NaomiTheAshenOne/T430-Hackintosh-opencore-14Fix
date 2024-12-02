@@ -20,7 +20,7 @@ This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some
 * Delete all data on your drive before installing (if not already using Mac)
 * Make sure to read the entire guide even if you have read the orginal as some things differ
 * Both fresh install and upgrade from MacOS have been tested and work
-Huge thanks to Shiorinyan for helping test and inspiring this :3
+* Huge thanks to Shiorinyan for helping test and inspiring this :3
 
 ## SUMMARY 
 This guide will provide a EFI folder configured to install macOS 10.13 to 14.7+ on the Thinkpad T430 using OpenCore Bootloader with every device working with some exceptions depending on your particular T430 model (see below)
