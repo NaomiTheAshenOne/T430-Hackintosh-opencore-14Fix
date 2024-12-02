@@ -13,9 +13,9 @@
 <img align="right" src="/resources/homepage.png" alt="Opencore" width="200">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 ## WHAT DOES THIS FORK CHANGE?
-This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some breaking API changes were introduced that causes the orignal EFI to crash when trying to install Sonoma.
+This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some breaking API changes were introduced that causes the orignal EFI to crash when trying to install Sonoma. Huge thanks to 
   
-## README!!! IMPORTANT NOTES ABOUT THIS FORK
+## IMPORTANT NOTES ABOUT THIS FORK
 * By default this config is for 768p displays, in config.plist change APPL,ig-platform-id from 03006601 to 04006601 for 900p displays.
 * Delete all data on your drive before installing (if not already using Mac)
 * Make sure to read the entire guide even if you have read the orginal as some things differ
@@ -119,8 +119,6 @@ Latest BIOS Version: `2.77` stock or ivyrain
 In this step you will create a macOS installation media.
 * You will need a Mac with opencore legacy patcher installed on it, if you dont own a Mac first follow the original guide and install MacOS 12 on the t430
 * Create a offline MacOS installer with opencore legacy and install it to a 32GB or higher USB drive
-* Use MountEFI (https://github.com/corpnewt/MountEFI) to mount the EFI of the USB drive
-* Copy the EFI folder from releases into the EFI parition
 
 </details> 
 
