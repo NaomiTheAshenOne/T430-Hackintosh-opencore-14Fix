@@ -136,6 +136,7 @@ In this step you will create a macOS installation media.
 <br /> 
 * Use MountEFI (https://github.com/corpnewt/MountEFI) to mount the EFI of the USB drive
 * Copy the EFI folder from releases into the EFI parition
+</details> 
 
 <details>
 <summary><strong>Installing macOS</strong></summary>
