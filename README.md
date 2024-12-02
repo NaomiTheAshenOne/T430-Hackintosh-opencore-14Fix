@@ -23,7 +23,7 @@ This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some
 Huge thanks to Shiorinyan for helping test and inspiring this :3
 
 ## SUMMARY 
-This guide will provide a EFI folder configured to install macOS 10.13 to 14 on the Thinkpad T430 using OpenCore Bootloader with every device working with some exceptions depending on your particular T430 model (see below)
+This guide will provide a EFI folder configured to install macOS 10.13 to 14.7+ on the Thinkpad T430 using OpenCore Bootloader with every device working with some exceptions depending on your particular T430 model (see below)
 
 |:warning: This guide assumes prior knowledge on how to do basic Hackintosh stuff |
 |:--------------------------------------------------------------------|
