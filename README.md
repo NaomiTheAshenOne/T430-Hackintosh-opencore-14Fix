@@ -25,9 +25,10 @@ This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some
 * Install MacOS
 * Follow the post install section
   
-## [README!!!] IMPORTANT NOTES ABOUT THIS FORK
+## README!!! IMPORTANT NOTES ABOUT THIS FORK
 * By default this config is for 768p displays, in config.plist change APPL,ig-platform-id from 03006601 to 04006601 for 900p displays.
 * Delete all data on your drive before installing (if not already using Mac)
+* Make sure to read the entire guide even if you have read the orginal as some things differ
 
 ## SUMMARY 
 This guide will provide a EFI folder configured to install macOS 10.13 to 14 on the Thinkpad T430 using OpenCore Bootloader with every device working with some exceptions depending on your particular T430 model (see below)
@@ -125,7 +126,10 @@ Latest BIOS Version: `2.77` stock or ivyrain
 
 ### Creating the USB installer 
 In this step you will create a macOS installation media.
-Regardless of the OS you are using to create the installer you will need some tools [Python](https://www.python.org/downloads/), [Propertree](https://github.com/corpnewt/ProperTree)
+You will need a Mac with opencore legacy patcher installed on it, if you dont own a Mac first follow the original guide and install MacOS 12 on the t430
+Create a offline MacOS installer with opencore legacy and install it to a 32GB or higher USB drive
+Use MountEFI to mount the EFI of the USB drive
+Copy the EFI folder from releases into the EFI parition
 <br /> <br /> 
 Now go to [OpenCore Guide - Creating the USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) where you can find the instructions step by step to create the installation media with your respective OS 
 </details>
