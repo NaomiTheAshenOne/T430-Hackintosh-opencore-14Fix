@@ -19,6 +19,7 @@ This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some
 * By default this config is for 768p displays, in config.plist change APPL,ig-platform-id from 03006601 to 04006601 for 900p displays.
 * Delete all data on your drive before installing (if not already using Mac)
 * Make sure to read the entire guide even if you have read the orginal as some things differ
+* Both fresh install and upgrade from MacOS have been tested and work
 
 ## SUMMARY 
 This guide will provide a EFI folder configured to install macOS 10.13 to 14 on the Thinkpad T430 using OpenCore Bootloader with every device working with some exceptions depending on your particular T430 model (see below)
@@ -45,22 +46,22 @@ The provided ACPI tables in this OC EFI folder are made using a DSDT-less method
 ## HARDWARE TESTED
 Do a pull request to add more Hardware configs to this list
 <details>
-<summary><strong>My T430</strong></summary>
+<summary><strong>NaomiTheAshenOne's T430</strong></summary>
 
 ### ThinkPad T430 Specs 
 | Component           | Details                                       |
 | ------------------: | :-------------------------------------------- |
 | Model               | Lenovo ThinkPad T430                          |
-| BIOS Version        | 2.77, unlocked with 1vyRain                   |
-| Processor           | Intel Core i7 3610QM                          |
+| BIOS Version        | 1vyRain                                       |
+| Processor           | Intel Core i7 3740QM                          |
 | Memory              | 16GB DDR3 1600MHz in Dual-Channel             |
-| SSD                 | Intel 520 Series SSD 180GB                    |
+| SSD                 | 256GB SSD                                     |
 | Graphics            | Intel HD Graphics 4000                        |
-| Display             | 15.6" 1600x900                                |
+| Display             | 15.6" 1366x768                                |
 | Audio               | Realtek ALC269VC                              |
-| Ethernet            | Intel 82579LM Gigabit Network                 |
-| WIFI                | Intel Dual Band Wireless-AC 7260              |
-| Bluetooth           | Integrated Broadcom BCM20702 Bluetooth 4.2    |
+| Ethernet            | N/A                                           |
+| WIFI                | Intel ax200                                   |
+| Bluetooth           | Intel ax200                                   |
   
 </details>
 
@@ -229,8 +230,9 @@ https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#sandy-and-ivy
 ## Credits
 
 Thanks to:
-* [jozews321] (https://github.com/jozews321/T430-Hackintosh-Opencore) (Original EFI creator)
+* [jozews321] (https://github.com/jozews321) (Original EFI creator)
 
+* [positivew] (https://github.com/positivew) (The idea of using MacbookPro12,1 instead of 10,1) 
 * [Apple](https://www.apple.com) (macOS)
 * [Acidanthera](https://github.com/acidanthera) (OpenCore, VirtualSMC, Lilu, WhateverGreen and a lot more)
 * [Dortania](https://dortania.github.io) (Opencore Install Guide, Opencore Legacy Patcher)
