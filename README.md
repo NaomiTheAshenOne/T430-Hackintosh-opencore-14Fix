@@ -1,4 +1,4 @@
-# Thinkpad T430 - Hackintosh - OpenCore
+# Thinkpad T430 - Hackintosh - OpenCore - Sonoma Fix
 [![T430](https://img.shields.io/badge/ThinkPad-T430-blueviolet.svg)](https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_T430.pdf)
 [![OC](https://img.shields.io/badge/OpenCore-0.9.2-informational.svg)](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.2)
 [![10.13](https://img.shields.io/badge/macOS-10.13-yellowgreen.svg)]()
