@@ -14,16 +14,6 @@
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 ## WHAT DOES THIS FORK CHANGE?
 This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some breaking API changes were introduced that causes the orignal EFI to crash when trying to install Sonoma.
-
-## HOW DO I INSTALL?
-* Use the bios settings outlined in the guide
-* You will need a Mac with opencore legacy patcher installed on it, if you dont own a Mac first follow the original guide and install MacOS 12 on the t430
-* Create a offline MacOS installer with opencore legacy and install it to a 32GB or higher USB drive
-* Use MountEFI to mount the EFI of the USB drive
-* Copy the EFI folder from releases into the EFI parition
-* Within the installer erase the drive and make sure its formatted to APFS
-* Install MacOS
-* Follow the post install section
   
 ## README!!! IMPORTANT NOTES ABOUT THIS FORK
 * By default this config is for 768p displays, in config.plist change APPL,ig-platform-id from 03006601 to 04006601 for 900p displays.
@@ -124,8 +114,6 @@ Latest BIOS Version: `2.77` stock or ivyrain
 <details>
 <summary><strong>USB Installation media</strong></summary>
 
-</details> 
-
 ### Creating the USB installer 
 In this step you will create a macOS installation media.
 * You will need a Mac with opencore legacy patcher installed on it, if you dont own a Mac first follow the original guide and install MacOS 12 on the t430
@@ -133,11 +121,14 @@ In this step you will create a macOS installation media.
 * Use MountEFI (https://github.com/corpnewt/MountEFI) to mount the EFI of the USB drive
 * Copy the EFI folder from releases into the EFI parition
 
+</details> 
+
 <details>
 <summary><strong>Adding the EFI folder to the USB</strong></summary>
-<br /> 
+
 * Use MountEFI (https://github.com/corpnewt/MountEFI) to mount the EFI of the USB drive
 * Copy the EFI folder from releases into the EFI parition
+
 </details> 
 
 <details>
