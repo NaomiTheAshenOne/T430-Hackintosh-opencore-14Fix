@@ -16,9 +16,9 @@
 This fork is an updated version of jozews preconfigured EFI, in MacOS 14.4+ some breaking API changes were introduced that causes the orignal EFI to crash when trying to install Sonoma.
 
 ## HOW DO I INSTALL?
-* 
+* Use the bios settings outlined in the guide
 * You will need a Mac with opencore legacy patcher installed on it, if you dont own a Mac first follow the original guide and install MacOS 12 on the t430
-* Create a MacOS installer with opencore legacy and install it to a 32GB or higher USB drive
+* Create a offline MacOS installer with opencore legacy and install it to a 32GB or higher USB drive
 * Use MountEFI to mount the EFI of the USB drive
 * Copy the EFI folder from releases into the EFI parition
 * Within the installer erase the drive and make sure its formatted to APFS
