@@ -126,23 +126,16 @@ Latest BIOS Version: `2.77` stock or ivyrain
 
 ### Creating the USB installer 
 In this step you will create a macOS installation media.
-You will need a Mac with opencore legacy patcher installed on it, if you dont own a Mac first follow the original guide and install MacOS 12 on the t430
-Create a offline MacOS installer with opencore legacy and install it to a 32GB or higher USB drive
-Use MountEFI (https://github.com/corpnewt/MountEFI) to mount the EFI of the USB drive
-Copy the EFI folder from releases into the EFI parition
-<br /> <br /> 
-Now go to [OpenCore Guide - Creating the USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) where you can find the instructions step by step to create the installation media with your respective OS 
-</details>
+* You will need a Mac with opencore legacy patcher installed on it, if you dont own a Mac first follow the original guide and install MacOS 12 on the t430
+* Create a offline MacOS installer with opencore legacy and install it to a 32GB or higher USB drive
+* Use MountEFI (https://github.com/corpnewt/MountEFI) to mount the EFI of the USB drive
+* Copy the EFI folder from releases into the EFI parition
 
 <details>
 <summary><strong>Adding the EFI folder to the USB</strong></summary>
 <br /> 
-Now you will need to copy the EFI folder to the root of your USB Installer in order to boot from it 
-<br /> <br /> 
-	
-You can consult [OpenCore Guide - Creating the USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) to get some instructions on how to do this with your OS
- 
-</details> 
+* Use MountEFI (https://github.com/corpnewt/MountEFI) to mount the EFI of the USB drive
+* Copy the EFI folder from releases into the EFI parition
 
 <details>
 <summary><strong>Installing macOS</strong></summary>
@@ -152,8 +145,6 @@ Boot from the USB by pressing F12 on the Thinkpad BIOS and choose your USB
 - You will see the OpenCore Boot Picker and choose to boot from your installation media
 
 - After that select Disk Utility and format your HDD/SSD in APFS
-
-- If running the internet installer connect an ethernet cable right now or connect WIFI, alternatively you can use an Android phone to tether via USB	
 	
 - Install as normal
 	
