@@ -230,7 +230,8 @@ https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#sandy-and-ivy
 
 Thanks to:
 * [jozews321](https://github.com/jozews321) (Original EFI creator)
-* [positivew](https://github.com/positivew) (The idea of using MacbookPro12,1 instead of 10,1) 
+* [positivew](https://github.com/positivew) (The idea of using MacbookPro12,1 instead of 10,1)
+* Shiorinyan (Helped with testing ^_^) 
 * [Apple](https://www.apple.com) (macOS)
 * [Acidanthera](https://github.com/acidanthera) (OpenCore, VirtualSMC, Lilu, WhateverGreen and a lot more)
 * [Dortania](https://dortania.github.io) (Opencore Install Guide, Opencore Legacy Patcher)
