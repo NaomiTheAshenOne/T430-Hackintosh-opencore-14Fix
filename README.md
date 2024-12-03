@@ -86,7 +86,23 @@ Do a pull request to add more Hardware configs to this list
   
 </details>
 
+<details>
+<summary><strong>shiorinyan's T430</strong></summary>
+| Component    | Details                                 |
+|--------------|-----------------------------------------|
+| Model        | Lenovo ThinkPad T430                    |
+| BIOS Version | 2.77                                    |
+| Processor    | i5-3320M                                |
+| Memory       | 8GB DDR3 1600MHz in Dual-Channel        |
+| SSD          | SATA LITE-ON 128GB + mSATA X-Star 256GB |
+| Graphics     | Intel HD Graphics 4000 (disabled nvidia)|
+| Display      | 15.6" 1600x900                          |
+| Audio        | ALC3202                                 |
+| Ethernet     | Intel 82579LM                           |
+| WIFI         | Intel Centrino Advanced-N 6205          |
+| Bluetooth    | Integrated Broadcom BCM20702            |
 
+</details>
 ## INSTALL GUIDE
 <details>
 <summary><strong>Getting the EFI ready</strong></summary>
