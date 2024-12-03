@@ -74,7 +74,7 @@ Do a pull request to add more Hardware configs to this list
 | ------------------: | :-------------------------------------------- |
 | Model               | Lenovo ThinkPad T430                          |
 | BIOS Version        | Stock latest                                  |
-| Processor           | Intel Core i7 3320m                           |
+| Processor           | Intel Core i5 3320m                           |
 | Memory              | 8GB DDR3 1600MHz in Dual-Channel              |
 | SSD                 | 480GB SSD                                     |
 | Graphics            | Intel HD Graphics 4000                        |
@@ -88,19 +88,22 @@ Do a pull request to add more Hardware configs to this list
 
 <details>
 <summary><strong>shiorinyan's T430</strong></summary>
-| Component    | Details                                 |
-|--------------|-----------------------------------------|
-| Model        | Lenovo ThinkPad T430                    |
-| BIOS Version | 2.77                                    |
-| Processor    | i5-3320M                                |
-| Memory       | 8GB DDR3 1600MHz in Dual-Channel        |
-| SSD          | SATA LITE-ON 128GB + mSATA X-Star 256GB |
-| Graphics     | Intel HD Graphics 4000 (disabled nvidia)|
-| Display      | 15.6" 1600x900                          |
-| Audio        | ALC3202                                 |
-| Ethernet     | Intel 82579LM                           |
-| WIFI         | Intel Centrino Advanced-N 6205          |
-| Bluetooth    | Integrated Broadcom BCM20702            |
+### ThinkPad T430 Specs
+	
+| Component           | Details                                       |
+| ------------------: | :-------------------------------------------- |
+| Model               | Lenovo ThinkPad T430                          |
+| BIOS Version        | 2.77                                          |
+| Processor           | Intel Core i5 3320m                           |
+| Memory              | 8GB DDR3 1600MHz in Dual-Channel              |
+| SSD                 | SATA LITE-ON 128GB + mSATA X-Star 256GB       |
+| Graphics            | Intel HD Graphics 4000 (disabled nvidia)      |
+| Display             | 15.6" 1600x900                                |
+| Audio               | Realtek ALC269VC                              |
+| Ethernet            | Intel 82579LM                                 |
+| WIFI                | Intel Centrino Advanced-N 6205                |
+| Bluetooth           | Integrated Broadcom BCM20702                  |
+ 
 </details>
 
 ## INSTALL GUIDE
