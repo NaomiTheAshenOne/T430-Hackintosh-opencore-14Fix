@@ -49,7 +49,6 @@ Do a pull request to add more Hardware configs to this list
 <details>
 <summary><strong>NaomiTheAshenOne's T430</strong></summary>
 
-### ThinkPad T430 Specs 
 | Component           | Details                                       |
 | ------------------: | :-------------------------------------------- |
 | Model               | Lenovo ThinkPad T430                          |
@@ -69,7 +68,6 @@ Do a pull request to add more Hardware configs to this list
 <details>
 <summary><strong>Josh's T430</strong></summary>
 
-### ThinkPad T430 Specs 
 | Component           | Details                                       |
 | ------------------: | :-------------------------------------------- |
 | Model               | Lenovo ThinkPad T430                          |
@@ -88,7 +86,6 @@ Do a pull request to add more Hardware configs to this list
 
 <details>
 <summary><strong>shiorinyan's T430</strong></summary>
-### ThinkPad T430 Specs
 	
 | Component           | Details                                       |
 | ------------------: | :-------------------------------------------- |
