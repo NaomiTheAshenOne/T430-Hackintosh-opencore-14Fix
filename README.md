@@ -101,8 +101,8 @@ Do a pull request to add more Hardware configs to this list
 | Ethernet     | Intel 82579LM                           |
 | WIFI         | Intel Centrino Advanced-N 6205          |
 | Bluetooth    | Integrated Broadcom BCM20702            |
-
 </details>
+
 ## INSTALL GUIDE
 <details>
 <summary><strong>Getting the EFI ready</strong></summary>
